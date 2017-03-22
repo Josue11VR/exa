@@ -1,2 +1,45 @@
-
+body {
+    width: 52%;
+    margin: 0 auto;
+}
+li {
+    display: inline;
+}
+ul {
+    margin: 3%;
+    padding: 3%;
+    margin-right:1%;
+    padding-right: 1%
+}
+header {
+    width: 60%;
+    float: left;
+}
+nav {
+    width: 39%;
+    float: right;
+    text-align: right;
+}
+#content {
+    float: left;
+}
+#img1 {
+    width: 990px;
+    height: 340px;
+}
+li[title="second"] {
+    border-left: 1px solid;
+}
+nav li a {
+    color: blue;
+}
+li[title="select"] a {
+    text-decoration: none;
+    color: black;
+}
+main,aside {
+    width: 31%;
+    float: left;
+    padding: 1%;
+}
 

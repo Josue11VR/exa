@@ -1,6 +1,20 @@
-
 body{
 
-	padding: 0 px;
+	background-color:lightblue;
+	font-family:  "serif";
 }
 
+
+
+#content{
+	width: 100%;
+}
+
+
+header,nav,div,section,aside,main {
+	border: solid 1px;
+}
+
+nav li a{
+	padding: 1%;
+}
