@@ -10,13 +10,6 @@ p{
 }
 
 
-li{
-	display: inline;
-	padding: 0% 0.5em ;
-}
-
-
-
 footer{
 	text-align: center;
 	border-top: solid 1px #263238;
@@ -51,4 +44,5 @@ a[title = "assigned web"] {
 img{
 	width: 100%;
 	height: 150px;
+	margin:  2px 0%;
 }
