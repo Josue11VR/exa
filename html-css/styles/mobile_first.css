@@ -1,0 +1,93 @@
+#wrapper {
+    width: 495px;
+    height: 95%;
+}
+footer {
+    width: 495px;
+    height: 5%;
+}
+footer nav {
+    display: none;
+}
+header {
+    text-align: center;
+}
+li {
+    display: block;
+    text-align: center;
+}
+#img1 {
+    width: 460px;
+    height: 200px;
+}
+nav ul li {
+    background-color: #E0E0E0;
+    margin: 2px 1px;
+    padding: 1px;
+    border: none;
+}
+nav .selected {
+    background-color: #9E9E9E;
+}
+
+/*------------------------------------------- Media queries ---------------------------------------------------- */
+
+@media only screen and (min-width: 1050px) {
+    #wrapper {
+        width: 1050px;
+        height: 90%;
+    }
+    #img1 {
+        width: 990px;
+        height: 340px;
+    }
+    header h1 {
+        width: 48%;
+        float: left;
+        text-align: left;
+    }
+    header nav {
+        width: 48%;
+        float: right;
+        text-align: right;
+        margin-top: 30px;
+    }
+    nav ul li {
+        display: inline;
+        padding: 0% 0.5em;
+        background-color: white;
+        border-left: 1px solid black;
+    }
+    nav .selected {
+        background-color: white;
+    }
+    nav ul li:first-child {
+        border-left: none;
+    }
+    nav .selected a {
+        color: black;
+        text-decoration: none;
+    }
+    nav li {
+        border-left: 1px solid black;
+    }
+    .column1 {
+        width: 41.3%;
+        float: left;
+        margin: 1%;
+    }
+    .column2,
+    .column3 {
+        width: 26.3%;
+        float: left;
+        margin: 1%;
+    }
+    footer {
+        height: 10%;
+        width: 1050px;
+    }
+    footer nav {
+        margin-top: 1%;
+        display: block;
+    }
+}
