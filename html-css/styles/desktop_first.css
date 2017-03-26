@@ -33,9 +33,9 @@
             height: 340px;
         }
         .column1 {
-            width: 35.3%;
+            width: 37.3%;
             float: left;
-            margin: 1%;
+            margin: 1% 0%;
         }
         .column2,
         .column3 {
