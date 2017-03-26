@@ -4,7 +4,7 @@
         background-color: black;
     }
     p {
-        font-size: 85%;
+        font-size: 100%;
     }
     #wrapper {
         position: fixed;
@@ -15,7 +15,6 @@
         overflow-y: scroll;
         background-color: white;
     }
-    
     #container,
     header,
     #content {
@@ -54,4 +53,3 @@
     #typesText p a:last-child {
         text-decoration: none;
     }
-
