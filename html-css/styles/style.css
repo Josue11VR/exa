@@ -15,13 +15,7 @@
         overflow-y: scroll;
         background-color: white;
     }
-   /* #wrapper,
-    header,
-    #container,
-    #content {
-        border: solid 1px;
-    }*/
-
+    
     #container,
     header,
     #content {
@@ -53,10 +47,11 @@
         padding: 0% 1px;
         margin-bottom: 10px;
     }
-    a[title="assigned web"] {
-        text-decoration: none;
-    }
     img {
         width: 100%;
         margin: 2px 0%;
     }
+    #typesText p a:last-child {
+        text-decoration: none;
+    }
+
