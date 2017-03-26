@@ -33,13 +33,13 @@
             height: 340px;
         }
         .column1 {
-            width: 41.3%;
+            width: 35.3%;
             float: left;
             margin: 1%;
         }
         .column2,
         .column3 {
-            width: 26.3%;
+            width: 29.3%;
             float: left;
             margin: 1%;
         }

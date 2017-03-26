@@ -31,7 +31,7 @@ nav .selected {
 
 /*------------------------------------------- Media queries ---------------------------------------------------- */
 
-@media only screen and (min-width:  800px) {
+@media only screen and (min-width: 800px) {
     #wrapper {
         width: 800px;
         height: 90%;
@@ -70,13 +70,13 @@ nav .selected {
         border-left: 1px solid black;
     }
     .column1 {
-        width: 41.3%;
+        width: 35.3%;
         float: left;
         margin: 1%;
     }
     .column2,
     .column3 {
-        width: 26.3%;
+        width: 29.3%;
         float: left;
         margin: 1%;
     }
@@ -92,7 +92,6 @@ nav .selected {
 @media only screen and (min-width: 1050px) {
     #wrapper {
         width: 1050px;
-
     }
     #img1 {
         width: 990px;
